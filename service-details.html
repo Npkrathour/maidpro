@@ -23,11 +23,7 @@
 </head>
 
 <body>
-    <!-- =================top-conatiner================ -->
-    <!-- ===========scroll btn======== -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <!-- ===========scroll btn======== -->
-    <section class="topbar">
+    <section class="topbar d-lg-block d-md-block d-none">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="top-nav text-center py-2">
@@ -48,23 +44,20 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                    <ul class="navbar-nav mx-auto my-3 mb-lg-0">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="about.html">About Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="blog.html">Blog</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="service.html">Services</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="event.html">Events</a>
-                        </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
@@ -72,12 +65,36 @@
             </div>
         </nav>
     </header>
-    <!-- ========================================= -->
+    <!-- =================top-conatiner================ -->
+    <div class="side-hover-btn">
+        <div class="location-con d-flex align-items-center">
+            <span class="iconify fs-1 text-white" data-icon="cil:location-pin"></span>
+            <div class="request-btn">
+                <div class="ps-3">
+                    <p class="text-white m-0">Request Your Free Estimate Today!</p>
+                    <div class="form-section">
+                        <form action="" class="py-3">
+                            <div class="d-flex">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Zip/Postal Code" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn">Go !</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===========scroll btn======== -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <!-- ========================blog section============= -->
     <section class="service-details-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-7 banner-backdrop">
                     <div class="main-details-banner">
                         <div class="blog-meet">
                             <h1>Meet MaidPro</h1>
@@ -104,13 +121,13 @@
 
 
     <!-- ==================Cleaning section======================== -->
-    <section class="living-section my-lg-5 py-lg-3">
+    <section class="living-section my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-6 col-12 my-3">
                     <div class="cleaning-content">
                         <h1>Clean Less. </h1>
-                        <h1 class="py-2">Live More. </h1>
+                        <h1 class="py-lg-1 py-1">Live More. </h1>
                         <p>The living spaces of your home - dining rooms, home offices, playrooms, and more - are all
                             meant to be used by the people who live in your house, not serve as showrooms. But that
                             doesn't mean that you can't want them to look and feel clean on a regular basis.</p>
@@ -136,18 +153,18 @@
 
 
     <!-- =================New section=============== -->
-    <section class="maid-section my-lg-5 my-2 py-lg-5 py-2">
+    <section class="maid-section my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="background-color">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-7 col-md-6 col-12 my-3 p-lg-0 m-lg-0">
+                    <div class="col-lg-7 col-md-6 col-12">
                         <div class="maid-body">
                             <img src="assets/images/maidprocom_732547035.webp" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-5 col-md-6 col-12 my-3">
-                        <div class="maid-content p-lg-3">
+                        <div class="maid-content p-lg-3 p-3">
                             <h1>Book your deeper clean today</h1>
                             <p>Find Your MaidPro!</p>
                             <div class="form-section">
@@ -170,7 +187,7 @@
     </section>
 
     <!-- ===========All our section start==================== -->
-    <section class="all-our-living my-lg-5 my-2 py-lg-5 py-2">
+    <section class="all-our-living my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-9">
@@ -237,37 +254,100 @@
     </section>
 
     <!-- ================================ -->
-    <section class="employment-section">
+    <section class="employment-section my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-5 col-12">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-7 col-12">
                     <div class="cleaning-page position-relative">
                         <div class="cleaning-image">
                             <img src="assets/images/living-section-1.webp" alt="">
                         </div>
                         <div class="living-main-content text-center">
-                            <h1>
-                                Cleaning is deeper with MaidPro</h1>
-                            <p>Book a deeper clean today!
-
-                            </p>
+                            <div class="living-inner-content d-flex justify-content-center align-items-center"
+                                style="height: 100%;">
+                                <div class="text-start p-lg-4 p-4">
+                                    <h1>
+                                        Cleaning is deeper with MaidPro</h1>
+                                    <p>Book a deeper clean today!</p>
+                                    <div class="form-section">
+                                        <form action="" class="py-3">
+                                            <div class="d-flex">
+                                                <div class="form-group">
+                                                    <input type="text" placeholder="Zip/Postal Code"
+                                                        class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn">Go !</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-12 my-lg-0 my-3">
+                    <div class="maidpro-resources ps-3">
+                        <div class="">
+                            <h4>MaidPro</h4>
+                            <h2>Resources</h2>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!" class="d-flex align-items-center"><span class="iconify"
+                                        data-icon="iconamoon:arrow-right-2-light"></span>FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="d-flex align-items-center"><span class="iconify"
+                                        data-icon="iconamoon:arrow-right-2-light"></span>Employment
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="d-flex align-items-center"><span class="iconify"
+                                        data-icon="iconamoon:arrow-right-2-light"></span>Gift Cards
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="d-flex align-items-center"><span class="iconify"
+                                        data-icon="iconamoon:arrow-right-2-light"></span>Blog
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="d-flex align-items-center"><span class="iconify"
+                                        data-icon="iconamoon:arrow-right-2-light"></span>Press
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="d-flex align-items-center"><span class="iconify"
+                                        data-icon="iconamoon:arrow-right-2-light"></span>Contact
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="d-flex align-items-center"><span class="iconify"
+                                        data-icon="iconamoon:arrow-right-2-light"></span>Service Feedback
+
+                                </a>
+                            </li>
+
+
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-
-
-
-    <!-- ===============footer section ======================= -->
+    <!-- ======footer========= -->
+    <!-- =================================footer section======================= -->
     <footer class="footer-section py-3">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-lg-4 col-md-4 col-12 my-3">
+                <div class="col-lg-4 col-md-7 col-12 my-3">
                     <div class="footer-content ">
                         <p>Accessibility |
                             Terms of Use</p>
@@ -278,7 +358,7 @@
                             Notice at Collection</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12 my-3">
+                <div class="col-lg-4 col-md-5 col-12 my-3">
                     <div class="social-links text-center">
                         <ul class="d-flex gap-4 list-unstyled">
                             <a href="#!">
@@ -299,8 +379,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="copyright text-end">
+                <div class="col-lg-4 col-md-12">
+                    <div class="copyright text-lg-end text-center">
                         <p>Copyright © 2024 MaidPro all rights reserved.
                             Powered by Octane</p>
                     </div>
@@ -315,6 +395,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="assets/js/index.js" defer></script>
 
 </body>

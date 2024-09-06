@@ -23,11 +23,7 @@
 </head>
 
 <body>
-    <!-- =================top-conatiner================ -->
-    <!-- ===========scroll btn======== -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <!-- ===========scroll btn======== -->
-    <section class="topbar">
+    <section class="topbar d-lg-block d-md-block d-none">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="top-nav text-center py-2">
@@ -48,23 +44,20 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                    <ul class="navbar-nav mx-auto my-3 mb-lg-0">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="about.html">About Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="blog.html">Blog</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="service.html">Services</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="event.html">Events</a>
-                        </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
@@ -72,13 +65,39 @@
             </div>
         </nav>
     </header>
+    <!-- ===========scroll btn======== -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- ===========scroll btn======== -->
+
+    <!-- ========side bar============= -->
+    <div class="side-hover-btn">
+        <div class="location-con d-flex align-items-center">
+            <span class="iconify fs-1 text-white" data-icon="cil:location-pin"></span>
+            <div class="request-btn">
+                <div class="ps-3">
+                    <p class="text-white m-0">Request Your Free Estimate Today!</p>
+                    <div class="form-section">
+                        <form action="" class="py-3">
+                            <div class="d-flex">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Zip/Postal Code" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn">Go !</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- ===============Banner Section============ -->
     <section class="home-banner">
         <div class="container-fluid px-0 mx-0">
             <div class="video-contect-sec">
                 <div class="video-wrapper">
-                    <video src="assets/images/video.mp4" autoplay muted loop width="100%" height=""
-                        type="video/mp4"></video>
+                    <video src="assets/images/video.mp4" autoplay muted loop width="100%" type="video/mp4"></video>
                 </div>
                 <div class="house-container">
                     <div class="box-after-before">
@@ -102,7 +121,7 @@
         </div>
     </section>
     <!-- =============== Why MaidPro section ============ -->
-    <section class="why-maidpro my-lg-4 my-2 py-lg-5 py-2">
+    <section class="why-maidpro my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="main-maidpro-content text-center mb-lg-5 md-2" data-aos="fade-up" data-aos-duration="1000"
                 data-aos-easing="linear">
@@ -147,17 +166,17 @@
         </div>
     </section>
     <!-- =============== PRO Clean Promise section ============ -->
-    <section class="Clean-promise my-lg-3 my-2 py-lg-3 py-2">
+    <section class="Clean-promise my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-lg-6 col-md-6 col-12 p-lg-5 my-3">
+                <div class="col-lg-6 col-md-6 col-12 p-lg-3 my-3">
                     <div class="feel-secure">
                         <img src="assets/images/maidprocom_492100841.webp" alt="" class="w-100 shadow-lg">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12 my-3">
                     <div class="feel-secure-with-our">
-                        <div class="d-flex justify-content-center align-items-center gap-5">
+                        <div class="d-flex justify-content-center align-items-center gap-lg-5 gap-md-1">
                             <div class="Clean-promise-content">
                                 <h3>Feel Secure With Our</h3>
                                 <h1>PRO Clean Promise</h1>
@@ -168,12 +187,12 @@
                                     <a href="#!" class="btn">Geet Free Estimate</a>
                                 </div>
                             </div>
-                            <div class="pro-image">
-                                <img src="assets/images/maidprocom_788156675.svg" alt="" class="w-100">
+                            <div class="pro-image text-end d-lg-block d-none">
+                                <img src="assets/images/maidprocom_788156675.svg" alt="" class="">
                             </div>
                         </div>
 
-                        <div class="d-flex align-items-center gap-5 py-4 px-3 border-counter mt-5">
+                        <div class="d-flex align-items-center gap-5 py-lg-3 py-2 px-3 border-counter">
                             <div class="counter-image">
                                 <img src="assets/images/stat-icon.svg" alt="" style="width: 90px;">
                             </div>
@@ -189,8 +208,8 @@
     </section>
     <!-- =============== The MaidPro section ============ -->
 
-    <section class="Point-Checklist py-lg-4">
-        <div class="container py-lg-5">
+    <section class="Point-Checklist my-lg-5 my-3 py-lg-5 py-3">
+        <div class="container py-lg-5 py-3">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="text-center points-content">
@@ -230,13 +249,13 @@
                                         <div class="modal-slider-1">
                                             <div class="owl-carousel owl-slider-1 owl-theme">
                                                 <div class="item">
-                                                    <div class="row gap-5">
-                                                        <div class="col-lg-5">
+                                                    <div class="row gap-lg-5 gap-5">
+                                                        <div class="col-lg-5 col-12">
                                                             <div class="living-room-slider">
                                                                 <img src="assets/images/living-1.webp" alt="" class="">
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-5 ps-2">
+                                                        <div class="col-lg-5 col-12">
                                                             <div class="living-room-content">
                                                                 <div class="living-inner-content d-flex
                                                                     align-items-center gap-5">
@@ -279,15 +298,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -321,12 +332,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -384,15 +390,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -426,12 +424,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -489,15 +482,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -531,12 +516,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -594,15 +574,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -636,12 +608,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -699,15 +666,8 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
+
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -741,12 +701,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -804,15 +759,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -845,12 +792,6 @@
                                                                                 data-icon="gravity-ui:seal-check"></span>
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
                                                                         </li>
 
                                                                     </ul>
@@ -937,15 +878,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -979,12 +912,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -1042,15 +970,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -1084,12 +1004,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -1147,15 +1062,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -1189,12 +1096,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -1252,15 +1154,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -1294,12 +1188,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -1357,15 +1246,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -1399,12 +1280,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -1462,12 +1338,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                     <ul class="list-unstyled py-2 list-slide">
@@ -1504,12 +1375,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -1595,15 +1461,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -1637,12 +1495,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -1700,15 +1553,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -1742,12 +1587,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -1808,11 +1648,60 @@
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
+                                                                            Upholstered
+                                                                            furniture vacuumed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Ceiling fans dusted (height restrictions
+                                                                            apply)
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Picture frames dusted
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hardwood floors vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hallways and stairs vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Windowsills cleaned (blinds dusted upon
+                                                                            request)
                                                                         </li>
 
+
                                                                     </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="row gap-5">
+                                                        <div class="col-lg-5">
+                                                            <div class="living-room-slider">
+                                                                <img src="assets/images/living-1.webp" alt="" class="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-5 ps-2">
+                                                            <div class="living-room-content">
+                                                                <div class="living-inner-content d-flex
+                                                                    align-items-center gap-5">
+                                                                    <img src="assets/images/KITCHEN.svg" alt=""
+                                                                        style="width: 50px;">
+                                                                    <h1>Living Areas</h1>
+                                                                </div>
+                                                                <div class="d-flex gap-4">
                                                                     <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
@@ -1847,12 +1736,133 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
+
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
+                                                                            Upholstered
+                                                                            furniture vacuumed
                                                                         </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Ceiling fans dusted (height restrictions
+                                                                            apply)
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Picture frames dusted
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hardwood floors vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hallways and stairs vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Windowsills cleaned (blinds dusted upon
+                                                                            request)
+                                                                        </li>
+
+
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="row gap-5">
+                                                        <div class="col-lg-5">
+                                                            <div class="living-room-slider">
+                                                                <img src="assets/images/living-1.webp" alt="" class="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-5 ps-2">
+                                                            <div class="living-room-content">
+                                                                <div class="living-inner-content d-flex
+                                                                    align-items-center gap-5">
+                                                                    <img src="assets/images/KITCHEN.svg" alt=""
+                                                                        style="width: 50px;">
+                                                                    <h1>Living Areas</h1>
+                                                                </div>
+                                                                <div class="d-flex gap-4">
+                                                                    <ul class="list-unstyled py-2 list-slide">
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Upholstered
+                                                                            furniture vacuumed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Ceiling fans dusted (height restrictions
+                                                                            apply)
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Picture frames dusted
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hardwood floors vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hallways and stairs vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Windowsills cleaned (blinds dusted upon
+                                                                            request)
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Upholstered
+                                                                            furniture vacuumed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Ceiling fans dusted (height restrictions
+                                                                            apply)
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Picture frames dusted
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hardwood floors vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hallways and stairs vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Windowsills cleaned (blinds dusted upon
+                                                                            request)
+                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -1913,15 +1923,6 @@
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
-
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
                                                                             Upholstered
                                                                             furniture vacuumed
                                                                         </li>
@@ -1952,222 +1953,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="row gap-5">
-                                                        <div class="col-lg-5">
-                                                            <div class="living-room-slider">
-                                                                <img src="assets/images/living-1.webp" alt="" class="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-5 ps-2">
-                                                            <div class="living-room-content">
-                                                                <div class="living-inner-content d-flex
-                                                                    align-items-center gap-5">
-                                                                    <img src="assets/images/KITCHEN.svg" alt=""
-                                                                        style="width: 50px;">
-                                                                    <h1>Living Areas</h1>
-                                                                </div>
-                                                                <div class="d-flex gap-4">
-                                                                    <ul class="list-unstyled py-2 list-slide">
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Upholstered
-                                                                            furniture vacuumed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Ceiling fans dusted (height restrictions
-                                                                            apply)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Picture frames dusted
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hardwood floors vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hallways and stairs vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Windowsills cleaned (blinds dusted upon
-                                                                            request)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
-
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Upholstered
-                                                                            furniture vacuumed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Ceiling fans dusted (height restrictions
-                                                                            apply)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Picture frames dusted
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hardwood floors vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hallways and stairs vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Windowsills cleaned (blinds dusted upon
-                                                                            request)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
-
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="row gap-5">
-                                                        <div class="col-lg-5">
-                                                            <div class="living-room-slider">
-                                                                <img src="assets/images/living-1.webp" alt="" class="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-5 ps-2">
-                                                            <div class="living-room-content">
-                                                                <div class="living-inner-content d-flex
-                                                                    align-items-center gap-5">
-                                                                    <img src="assets/images/KITCHEN.svg" alt=""
-                                                                        style="width: 50px;">
-                                                                    <h1>Living Areas</h1>
-                                                                </div>
-                                                                <div class="d-flex gap-4">
-                                                                    <ul class="list-unstyled py-2 list-slide">
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Upholstered
-                                                                            furniture vacuumed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Ceiling fans dusted (height restrictions
-                                                                            apply)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Picture frames dusted
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hardwood floors vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hallways and stairs vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Windowsills cleaned (blinds dusted upon
-                                                                            request)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
-
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Upholstered
-                                                                            furniture vacuumed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Ceiling fans dusted (height restrictions
-                                                                            apply)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Picture frames dusted
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hardwood floors vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hallways and stairs vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Windowsills cleaned (blinds dusted upon
-                                                                            request)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
                                                                     </ul>
                                                                 </div>
@@ -2253,15 +2039,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -2295,12 +2073,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
+
 
                                                                     </ul>
                                                                 </div>
@@ -2358,14 +2131,64 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
+
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
+                                                                            Upholstered
+                                                                            furniture vacuumed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Ceiling fans dusted (height restrictions
+                                                                            apply)
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Picture frames dusted
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hardwood floors vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hallways and stairs vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Windowsills cleaned (blinds dusted upon
+                                                                            request)
                                                                         </li>
 
+
                                                                     </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="row gap-5">
+                                                        <div class="col-lg-5">
+                                                            <div class="living-room-slider">
+                                                                <img src="assets/images/living-1.webp" alt="" class="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-5 ps-2">
+                                                            <div class="living-room-content">
+                                                                <div class="living-inner-content d-flex
+                                                                    align-items-center gap-5">
+                                                                    <img src="assets/images/KITCHEN.svg" alt=""
+                                                                        style="width: 50px;">
+                                                                    <h1>Living Areas</h1>
+                                                                </div>
+                                                                <div class="d-flex gap-4">
                                                                     <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
@@ -2400,6 +2223,219 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
+
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Upholstered
+                                                                            furniture vacuumed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Ceiling fans dusted (height restrictions
+                                                                            apply)
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Picture frames dusted
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hardwood floors vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hallways and stairs vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Windowsills cleaned (blinds dusted upon
+                                                                            request)
+                                                                        </li>
+
+
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="row gap-5">
+                                                        <div class="col-lg-5">
+                                                            <div class="living-room-slider">
+                                                                <img src="assets/images/living-1.webp" alt="" class="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-5 ps-2">
+                                                            <div class="living-room-content">
+                                                                <div class="living-inner-content d-flex
+                                                                    align-items-center gap-5">
+                                                                    <img src="assets/images/KITCHEN.svg" alt=""
+                                                                        style="width: 50px;">
+                                                                    <h1>Living Areas</h1>
+                                                                </div>
+                                                                <div class="d-flex gap-4">
+                                                                    <ul class="list-unstyled py-2 list-slide">
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Upholstered
+                                                                            furniture vacuumed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Ceiling fans dusted (height restrictions
+                                                                            apply)
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Picture frames dusted
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hardwood floors vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hallways and stairs vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Windowsills cleaned (blinds dusted upon
+                                                                            request)
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Upholstered
+                                                                            furniture vacuumed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Ceiling fans dusted (height restrictions
+                                                                            apply)
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Picture frames dusted
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hardwood floors vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hallways and stairs vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Windowsills cleaned (blinds dusted upon
+                                                                            request)
+                                                                        </li>
+
+
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="row gap-5">
+                                                        <div class="col-lg-5">
+                                                            <div class="living-room-slider">
+                                                                <img src="assets/images/living-1.webp" alt="" class="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-5 ps-2">
+                                                            <div class="living-room-content">
+                                                                <div class="living-inner-content d-flex
+                                                                    align-items-center gap-5">
+                                                                    <img src="assets/images/KITCHEN.svg" alt=""
+                                                                        style="width: 50px;">
+                                                                    <h1>Living Areas</h1>
+                                                                </div>
+                                                                <div class="d-flex gap-4">
+                                                                    <ul class="list-unstyled py-2 list-slide">
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Upholstered
+                                                                            furniture vacuumed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Ceiling fans dusted (height restrictions
+                                                                            apply)
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Picture frames dusted
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hardwood floors vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hallways and stairs vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Windowsills cleaned (blinds dusted upon
+                                                                            request)
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Upholstered
+                                                                            furniture vacuumed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Ceiling fans dusted (height restrictions
+                                                                            apply)
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Picture frames dusted
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hardwood floors vacuumed and/or washed
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="iconify"
+                                                                                data-icon="gravity-ui:seal-check"></span>
+                                                                            Hallways and stairs vacuumed and/or washed
+                                                                        </li>
+
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -2463,15 +2499,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
                                                                         <li>
                                                                             <span class="iconify"
                                                                                 data-icon="gravity-ui:seal-check"></span>
@@ -2505,327 +2533,7 @@
                                                                             Windowsills cleaned (blinds dusted upon
                                                                             request)
                                                                         </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="row gap-5">
-                                                        <div class="col-lg-5">
-                                                            <div class="living-room-slider">
-                                                                <img src="assets/images/living-1.webp" alt="" class="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-5 ps-2">
-                                                            <div class="living-room-content">
-                                                                <div class="living-inner-content d-flex
-                                                                    align-items-center gap-5">
-                                                                    <img src="assets/images/KITCHEN.svg" alt=""
-                                                                        style="width: 50px;">
-                                                                    <h1>Living Areas</h1>
-                                                                </div>
-                                                                <div class="d-flex gap-4">
-                                                                    <ul class="list-unstyled py-2 list-slide">
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Upholstered
-                                                                            furniture vacuumed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Ceiling fans dusted (height restrictions
-                                                                            apply)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Picture frames dusted
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hardwood floors vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hallways and stairs vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Windowsills cleaned (blinds dusted upon
-                                                                            request)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
-
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Upholstered
-                                                                            furniture vacuumed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Ceiling fans dusted (height restrictions
-                                                                            apply)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Picture frames dusted
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hardwood floors vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hallways and stairs vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Windowsills cleaned (blinds dusted upon
-                                                                            request)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
-
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="row gap-5">
-                                                        <div class="col-lg-5">
-                                                            <div class="living-room-slider">
-                                                                <img src="assets/images/living-1.webp" alt="" class="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-5 ps-2">
-                                                            <div class="living-room-content">
-                                                                <div class="living-inner-content d-flex
-                                                                    align-items-center gap-5">
-                                                                    <img src="assets/images/KITCHEN.svg" alt=""
-                                                                        style="width: 50px;">
-                                                                    <h1>Living Areas</h1>
-                                                                </div>
-                                                                <div class="d-flex gap-4">
-                                                                    <ul class="list-unstyled py-2 list-slide">
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Upholstered
-                                                                            furniture vacuumed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Ceiling fans dusted (height restrictions
-                                                                            apply)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Picture frames dusted
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hardwood floors vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hallways and stairs vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Windowsills cleaned (blinds dusted upon
-                                                                            request)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
-
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Upholstered
-                                                                            furniture vacuumed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Ceiling fans dusted (height restrictions
-                                                                            apply)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Picture frames dusted
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hardwood floors vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hallways and stairs vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Windowsills cleaned (blinds dusted upon
-                                                                            request)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
-
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="row gap-5">
-                                                        <div class="col-lg-5">
-                                                            <div class="living-room-slider">
-                                                                <img src="assets/images/living-1.webp" alt="" class="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-5 ps-2">
-                                                            <div class="living-room-content">
-                                                                <div class="living-inner-content d-flex
-                                                                    align-items-center gap-5">
-                                                                    <img src="assets/images/KITCHEN.svg" alt=""
-                                                                        style="width: 50px;">
-                                                                    <h1>Living Areas</h1>
-                                                                </div>
-                                                                <div class="d-flex gap-4">
-                                                                    <ul class="list-unstyled py-2 list-slide">
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Upholstered
-                                                                            furniture vacuumed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Ceiling fans dusted (height restrictions
-                                                                            apply)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Picture frames dusted
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hardwood floors vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hallways and stairs vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Windowsills cleaned (blinds dusted upon
-                                                                            request)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
-
-                                                                    </ul>
-                                                                    <ul class="list-unstyled py-2 list-slide">
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Upholstered
-                                                                            furniture vacuumed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Ceiling fans dusted (height restrictions
-                                                                            apply)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Picture frames dusted
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hardwood floors vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Hallways and stairs vacuumed and/or washed
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Windowsills cleaned (blinds dusted upon
-                                                                            request)
-                                                                        </li>
-                                                                        <li>
-                                                                            <span class="iconify"
-                                                                                data-icon="gravity-ui:seal-check"></span>
-                                                                            Fingerprints removed from all woodwork,
-                                                                            doorframes and switch plates
-                                                                        </li>
 
                                                                     </ul>
                                                                 </div>
@@ -2848,12 +2556,12 @@
 
 
     <!-- ===============Book your deepersection======== -->
-    <section class="book-deeper my-5 py-lg-5">
+    <section class="book-deeper my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="bg-deeper">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-5 col-md-6 col-12 p-0 m-lg-0">
-                        <div class="clean-box py-4 px-5">
+                    <div class="col-lg-5 col-md-6 col-12">
+                        <div class="clean-box py-4 px-lg-5 px-4">
                             <h1>Book your deeper
                                 clean today</h1>
                             <p>Find Your MaidPro!</p>
@@ -2870,7 +2578,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-lg-7 col-12 p-0 m-lg-0">
+                    <div class="col-lg-7 col-md-6 col-12">
                         <div class="image-box">
                             <img src="assets/images/bg-1.jpg" alt="" class="w-100">
                         </div>
@@ -2880,7 +2588,7 @@
         </div>
     </section>
     <!-- ===============================Feel More at home section============= -->
-    <section class="your-home-section my-5 py-5">
+    <section class="your-home-section my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-6 col-12 my-3">
@@ -2907,11 +2615,12 @@
             </div>
         </div>
     </section>
+    <!-- ======footer========= -->
     <!-- =================================footer section======================= -->
     <footer class="footer-section py-3">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-lg-4 col-md-4 col-12 my-3">
+                <div class="col-lg-4 col-md-7 col-12 my-3">
                     <div class="footer-content ">
                         <p>Accessibility |
                             Terms of Use</p>
@@ -2922,7 +2631,7 @@
                             Notice at Collection</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12 my-3">
+                <div class="col-lg-4 col-md-5 col-12 my-3">
                     <div class="social-links text-center">
                         <ul class="d-flex gap-4 list-unstyled">
                             <a href="#!">
@@ -2943,8 +2652,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="copyright text-end">
+                <div class="col-lg-4 col-md-12">
+                    <div class="copyright text-lg-end text-center">
                         <p>Copyright © 2024 MaidPro all rights reserved.
                             Powered by Octane</p>
                     </div>

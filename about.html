@@ -23,11 +23,7 @@
 </head>
 
 <body>
-    <!-- =================top-conatiner================ -->
-    <!-- ===========scroll btn======== -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <!-- ===========scroll btn======== -->
-    <section class="topbar">
+    <section class="topbar d-lg-block d-md-block d-none">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="top-nav text-center py-2">
@@ -48,23 +44,20 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                    <ul class="navbar-nav mx-auto my-3 mb-lg-0">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="about.html">About Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="blog.html">Blog</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="service.html">Services</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="event.html">Events</a>
-                        </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
@@ -72,13 +65,38 @@
             </div>
         </nav>
     </header>
-
-
+    <!-- =================top-conatiner================ -->
+    <!-- ===========scroll btn======== -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- ===========scroll btn======== -->
+    <!-- ========side bar============= -->
+    <div class="side-hover-btn">
+        <div class="location-con d-flex align-items-center">
+            <span class="iconify fs-1 text-white" data-icon="cil:location-pin"></span>
+            <div class="request-btn">
+                <div class="ps-3">
+                    <p class="text-white m-0">Request Your Free Estimate Today!</p>
+                    <div class="form-section">
+                        <form action="" class="py-3">
+                            <div class="d-flex">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Zip/Postal Code" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn">Go !</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- =========================About banner section============ -->
     <section class="about-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-7 banner-backdrop">
                     <div class="about-banner">
                         <div class="banner-meet">
                             <h1>Meet MaidPro</h1>
@@ -102,7 +120,7 @@
         </div>
     </section>
     <!-- ==================Cleaning section======================== -->
-    <section class="cleaning-section my-lg-5 py-lg-3">
+    <section class="cleaning-section my-lg-5 my-5 py-lg-5 py-3">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-6 col-12 my-3">
@@ -128,18 +146,18 @@
     </section>
 
     <!-- =================New section=============== -->
-    <section class="maid-section my-lg-5 my-2 py-lg-5 py-2">
+    <section class="maid-section my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="background-color">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-7 col-md-6 col-12 my-3 p-lg-0 m-lg-0">
+                    <div class="col-lg-7 col-md-6 col-12">
                         <div class="maid-body">
                             <img src="assets/images/maidprocom_732547035.webp" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-5 col-md-6 col-12 my-3">
-                        <div class="maid-content p-lg-3">
+                        <div class="maid-content p-lg-3 p-3">
                             <h1>Book your deeper clean today</h1>
                             <p>Find Your MaidPro!</p>
                             <div class="form-section">
@@ -161,7 +179,7 @@
         </div>
     </section>
     <!-- ===================The MaidPro Story section================== -->
-    <section class="about-story-section my-lg-5 my-2 py-lg-5 py-2">
+    <section class="about-story-section my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-10">
@@ -188,7 +206,7 @@
     </section>
 
     <!-- =============Our Beliefs Section============== -->
-    <section class="Our-Beliefs my-lg-5 my-2">
+    <section class="Our-Beliefs my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 col-md-6 col-12 my-3 p-lg-0 m-lg-0">
@@ -217,7 +235,7 @@
 
 
     <!-- =============our culture========== -->
-    <section class="Our-Culture  my-lg-5 my-2 py-lg-5 py-2">
+    <section class="Our-Culture  my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-10">
@@ -243,7 +261,7 @@
         </div>
     </section>
     <!-- ===================== -->
-    <section class="Cleaning-Deeper-section my-lg-5 py-lg-3">
+    <section class="Cleaning-Deeper-section my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-6 col-12 my-3">
@@ -269,21 +287,24 @@
         </div>
     </section>
     <!-- ==============thumbnails============ -->
-    <section class="blog-section-bottom my-lg-5 my-2 py-lg-5">
+    <section class="blog-section-bottom my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12 my-3">
                     <div class="thumbnails-body d-flex">
                         <div class="thumbnails">
-                            <a href="#!"><img src="assets/images/thumbnails-1.webp" alt="" class="w-100 img-fluid"></a>
+                            <a href="inner-blog.html"><img src="assets/images/thumbnails-1.webp" alt=""
+                                    class="w-100 img-fluid"></a>
                         </div>
                         <div class="thumbnails-content">
-                            <div class="" style="background-color: #066794; padding: 27px 17px;">
-                                <a href="#!">10 Benefits of Working with Cleaning Services for Regular Light Commercial
+                            <div class="thumbnails-main-content">
+                                <a href="inner-blog.html">10 Benefits of Working with Cleaning Services for Regular
+                                    Light Commercial
                                     Cleaning</a>
                             </div>
-                            <div class="thumbnails-inner-details" style="padding: 10px 17px;">
-                                <a href="#!">10 Benefits of Working with Cleaning Services for Regular Light Commercial
+                            <div class="thumbnails-inner-details">
+                                <a href="inner-blog.html">10 Benefits of Working with Cleaning Services for Regular
+                                    Light Commercial
                                     Cleaning Have you ever seen a mess..
                                 </a>
                             </div>
@@ -293,15 +314,18 @@
                 <div class="col-lg-6 col-md-6 col-12 my-3">
                     <div class="thumbnails-body d-flex">
                         <div class="thumbnails">
-                            <a href="#!"><img src="assets/images/thumbnails-1.webp" alt="" class="w-100 img-fluid"></a>
+                            <a href="inner-blog.html"><img src="assets/images/thumbnails-1.webp" alt=""
+                                    class="w-100 img-fluid"></a>
                         </div>
                         <div class="thumbnails-content">
-                            <div class="" style="background-color: #066794; padding: 27px 17px;">
-                                <a href="#!">10 Benefits of Working with Cleaning Services for Regular Light Commercial
+                            <div class="thumbnails-main-content">
+                                <a href="inner-blog.html">10 Benefits of Working with Cleaning Services for Regular
+                                    Light Commercial
                                     Cleaning</a>
                             </div>
-                            <div class="thumbnails-inner-details" style="padding: 10px 17px;">
-                                <a href="#!">10 Benefits of Working with Cleaning Services for Regular Light Commercial
+                            <div class="thumbnails-inner-details">
+                                <a href="inner-blog.html">10 Benefits of Working with Cleaning Services for Regular
+                                    Light Commercial
                                     Cleaning Have you ever seen a mess..
                                 </a>
                             </div>
@@ -311,15 +335,18 @@
                 <div class="col-lg-6 col-md-6 col-12 my-3">
                     <div class="thumbnails-body d-flex">
                         <div class="thumbnails">
-                            <a href="#!"><img src="assets/images/thumbnails-1.webp" alt="" class="w-100 img-fluid"></a>
+                            <a href="inner-blog.html"><img src="assets/images/thumbnails-1.webp" alt=""
+                                    class="w-100 img-fluid"></a>
                         </div>
                         <div class="thumbnails-content">
-                            <div class="" style="background-color: #066794; padding: 27px 17px;">
-                                <a href="#!">10 Benefits of Working with Cleaning Services for Regular Light Commercial
+                            <div class="thumbnails-main-content">
+                                <a href="inner-blog.html">10 Benefits of Working with Cleaning Services for Regular
+                                    Light Commercial
                                     Cleaning</a>
                             </div>
-                            <div class="thumbnails-inner-details" style="padding: 10px 17px;">
-                                <a href="#!">10 Benefits of Working with Cleaning Services for Regular Light Commercial
+                            <div class="thumbnails-inner-details">
+                                <a href="inner-blog.html">10 Benefits of Working with Cleaning Services for Regular
+                                    Light Commercial
                                     Cleaning Have you ever seen a mess..
                                 </a>
                             </div>
@@ -329,15 +356,18 @@
                 <div class="col-lg-6 col-md-6 col-12 my-3">
                     <div class="thumbnails-body d-flex">
                         <div class="thumbnails">
-                            <a href="#!"><img src="assets/images/thumbnails-3.webp" alt="" class="w-100 img-fluid"></a>
+                            <a href="inner-blog.html"><img src="assets/images/thumbnails-3.webp" alt=""
+                                    class="w-100 img-fluid"></a>
                         </div>
                         <div class="thumbnails-content">
-                            <div class="" style="background-color: #066794; padding: 27px 17px;">
-                                <a href="#!">10 Benefits of Working with Cleaning Services for Regular Light Commercial
+                            <div class="thumbnails-main-content">
+                                <a href="inner-blog.html">10 Benefits of Working with Cleaning Services for Regular
+                                    Light Commercial
                                     Cleaning</a>
                             </div>
-                            <div class="thumbnails-inner-details" style="padding: 10px 17px;">
-                                <a href="#!">10 Benefits of Working with Cleaning Services for Regular Light Commercial
+                            <div class="thumbnails-inner-details">
+                                <a href="inner-blog.html">10 Benefits of Working with Cleaning Services for Regular
+                                    Light Commercial
                                     Cleaning Have you ever seen a mess..
                                 </a>
                             </div>
@@ -347,68 +377,62 @@
             </div>
         </div>
     </section>
-    <!-- ======================Marquee section======= -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10">
+
+    <!-- ======footer========= -->
+    <?<!-- =================================footer section======================= -->
+<footer class="footer-section py-3">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-lg-4 col-md-7 col-12 my-3">
+                <div class="footer-content ">
+                    <p>Accessibility |
+                        Terms of Use</p>
+                    <p>Notice of Rights Opt Out |
+                        Privacy Policy |
+                        Sitemap</p>
+                    <p>Your Privacy Choices |
+                        Notice at Collection</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-5 col-12 my-3">
+                <div class="social-links text-center">
+                    <ul class="d-flex gap-4 list-unstyled">
+                        <a href="#!">
+                            <li><span class="iconify" data-icon="ri:facebook-fill"></span></li>
+                        </a>
+                        <a href="#!">
+                            <li><span class="iconify" data-icon="ri:linkedin-fill"></span></li>
+                        </a>
+                        <a href="#@!">
+                            <li><span class="iconify" data-icon="bi:twitter"></span></li>
+                        </a>
+                        <a href="#!">
+                            <li><span class="iconify" data-icon="uim:youtube"></span></li>
+                        </a>
+                        <a href="#!">
+                            <li><span class="iconify" data-icon="streamline:instagram"></span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="copyright text-lg-end text-center">
+                    <p>Copyright © 2024 MaidPro all rights reserved.
+                        Powered by Octane</p>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ===============footer section ======================= -->
-    <footer class="footer-section py-3">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-4 col-md-4 col-12 my-3">
-                    <div class="footer-content ">
-                        <p>Accessibility |
-                            Terms of Use</p>
-                        <p>Notice of Rights Opt Out |
-                            Privacy Policy |
-                            Sitemap</p>
-                        <p>Your Privacy Choices |
-                            Notice at Collection</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12 my-3">
-                    <div class="social-links text-center">
-                        <ul class="d-flex gap-4 list-unstyled">
-                            <a href="#!">
-                                <li><span class="iconify" data-icon="ri:facebook-fill"></span></li>
-                            </a>
-                            <a href="#!">
-                                <li><span class="iconify" data-icon="ri:linkedin-fill"></span></li>
-                            </a>
-                            <a href="#@!">
-                                <li><span class="iconify" data-icon="bi:twitter"></span></li>
-                            </a>
-                            <a href="#!">
-                                <li><span class="iconify" data-icon="uim:youtube"></span></li>
-                            </a>
-                            <a href="#!">
-                                <li><span class="iconify" data-icon="streamline:instagram"></span></li>
-                            </a>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="copyright text-end">
-                        <p>Copyright © 2024 MaidPro all rights reserved.
-                            Powered by Octane</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- ================Script============== -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"></script>
-    <script src="assets/js/index.js" defer></script>
+    </div>
+</footer>
+<!-- ================Script============== -->
+<script src="https://code.jquery.com/jquery-3.4.1.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="assets/js/index.js" defer></script>
 
 </body>
 

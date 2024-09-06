@@ -1,0 +1,422 @@
+@media screen and (max-width: 1441px) {
+    .house-container {
+        width: 100%;
+        max-width: 50%;
+    }
+    .house-cleaning {
+        padding: 26px 66px;
+        margin: 30px;
+    }
+    .side-hover-btn {
+        position: fixed;
+        right: -21%;
+        top: 50%;
+        width: auto;
+        height: auto;
+        z-index: 1;
+    }
+}
+
+
+@media screen and (max-width: 1180px) {
+    .house-container {
+        width: 100%;
+        max-width: 60%;
+    } 
+    .side-hover-btn {
+        position: fixed;
+        right: -26%;
+        top: 50%;
+        width: auto;
+        height: auto;
+        z-index: 1;
+    }
+    .border-counter .counter-number .number {
+        font-size: 30px;
+    }
+    .Clean-promise .Clean-promise-content h1 {
+        font-size: 23px;
+    }
+    .border-counter .counter-number .paragraph {
+        font-size: 17px;
+    }
+    .border-counter{
+        margin-top: 10px;
+        
+    }
+    .MODAL-BTN {
+        font-size: 15px;
+    }
+    .point-section-3 {
+        transform: translate(-25%, -50%);
+    }
+    .clean-box h1 {
+        font-size: 30px;
+    }
+    .cleaning-image img {
+        border-radius: 0px 30px 0px 30px;
+    }
+    .banner-backdrop{
+        padding: 0px 0px;
+    }
+    .thumbnails-content .thumbnails-main-content {
+        padding: 18px 15px;
+    }
+    .thumbnails-content a {
+        font-size: 14px;
+    }
+    .thumbnails-inner-details a {
+        font-size: 14px;
+    }
+    .maid-content h1 {
+    font-size: 30px;
+}
+.blog-box-content-related {
+    left: 1%;
+    transform: translate(24px, 10px);
+    width: 100%;
+    max-width: 90%;
+}
+.blog-box-content {
+    left: 5%;
+    width: 100%;
+    max-width: 90%;
+    transform: translate(7px, 10px);
+}
+.contact-details .telephone-iocn img{
+    width: 80px;
+}
+.main-contact-details img{
+    width: 20px;
+}
+.iner-blog-heading h1 {
+    font-size: 40px;
+}
+.cleaning-page .living-main-content {
+    border-radius: 0px 30px 0px 30px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+    .side-hover-btn {
+        position: fixed;
+        right: -30%;
+        top: 50%;
+        width: auto;
+        height: auto;
+        z-index: 1;
+    }
+   
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-collapse {
+        position: absolute;
+        content: "";
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        background-color: #0667949c;
+        backdrop-filter: blur(8.25px);
+        z-index: 9;
+    }
+    .nav-item .nav-link {
+        font-size: 17px;
+        color: #ffffff;
+    }
+    .header-container .navbar-nav .nav-item {
+    padding: 0px 58px;
+    }
+    .house-container {
+        position: absolute;
+        top: 50%;
+        left: 34%;
+        transform: translate(-45%, -50%);
+        width: 100%;
+        max-width: 75%;
+    }
+    .house-cleaning h1 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .house-cleaning {
+        padding: 24px 31px;
+        margin: 30px;
+    }
+    .house-cleaning p {
+        padding-top: 0px;
+    } 
+    .side-hover-btn {
+        position: fixed;
+        right: -40%;
+        top: 50%;
+        width: auto;
+        height: auto;
+        z-index: 1;
+    }
+    .why-maidpro .trusted-image img {
+    width: 50px;
+    }
+    .why-maidpro .trusted-content h2 {
+    font-size: 25px;
+   }
+   .why-maidpro .trusted-content h3 {
+    font-size: 17px;
+   }
+   .Clean-promise .pro-image img {
+    width: 100%;
+    max-width: 80%;
+}
+.counter-image img{
+    width: 50px !important;
+}
+.counter-number h4 {
+    font-size: 15px;
+}
+.border-counter .counter-number .number {
+    font-size: 20px;
+}
+.border-counter .counter-number .paragraph {
+    font-size: 15px;
+}
+.estimate-btn a {
+    font-size: 15px;
+    padding: 10px 8px;
+}
+.Point-Checklist .modal.show .modal-dialog {
+    max-width: 90%;
+}
+.living-room-slider {
+    width: 100%;
+    height: 300px;
+}
+.living-room-content {
+    padding:0 16px;
+}
+.Point-Checklist .list-slide li {
+    padding: 5px 0px;
+    font-size: 15px;
+    width: 100%;
+    max-width: 49%;
+}
+.points img{
+    width: 25px !important;
+}
+.MODAL-BTN {
+    font-size: 13px;
+}
+.book-deeper .form-group .btn {
+    padding: 8.5px 15px;   
+}
+.your-home-section .home-image .inner-image-home img {
+    border-radius: 0px 35px 0px 35px;
+}
+.Clean-promise .feel-secure img {
+    border-radius: 0px 30px 0px 30px;
+}
+.banner-backdrop {
+    padding: 0px 0px;
+    width: 100%;
+    max-width: 75%;
+}
+.cleaning-section .cleaning-content p {
+    padding-top: 0px;
+    font-size: 16px;
+}
+.cleaning-section .cleaning-content h1 {
+    font-size: 22px;
+}
+.Our-Beliefs-body img {
+    border-radius: 0px 30px 0px 30px;
+}
+.Cleaning-Deeper-section .cleaning-content h1 {
+    font-size: 22px;
+}
+.Cleaning-Deeper-section .cleaning-content p {
+    padding-top: 0px;
+}
+.thumbnails {
+    width: 100%;
+    max-width: 25%;
+    height: auto;
+}
+.news-box-content h3 {
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+.blog-icon li p {
+    font-size: 12px;
+}
+.blog-icon li .iconify {
+    font-size: 15px;
+}
+.contact-details .telephone-iocn img{
+    width: 50px;
+}
+.living-section .cleaning-content p {
+    padding-top: 0px;
+    font-size: 16px;
+}
+.employment-section .living-main-content h1 {
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width: 820px){
+.side-hover-btn {
+    position: fixed;
+    right: -37%;
+    top: 50%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+}
+@media screen and (max-width: 768px){
+.side-hover-btn {
+    position: fixed;
+    right: -39.9%;
+    top: 50%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}}
+@media screen and (max-width: 520px) {
+    .header-container .navbar-nav .nav-item {
+        padding: 0px 20px;
+        }
+        .topbar .top-nav h3 {
+    font-size: 14px;
+}
+    .side-hover-btn{
+        display: none;
+    }
+    .house-cleaning {
+        padding: 32px 22px;
+        margin: 29px;
+    }
+    .house-container {
+        position: absolute;
+        top: 50%;
+        left: 42%;
+        transform: translate(-42%, -58%);
+        width: 100%;
+        max-width: 100%;
+    }
+    .video-wrapper{
+        height: 600px;
+    }
+    .house-cleaning h1 {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .points img {
+        width: 20px !important;
+    }
+    .MODAL-BTN {
+        font-size: 10px;
+    }
+    .point-section-1 {
+        position: absolute;
+        bottom: 55%;
+        left: 27%;
+        transform: translate(-46%, 9%);
+    }
+    .point-section-3 {
+        transform: translate(34%, 48%);
+    }
+    .point-section-4 {
+        position: absolute;
+        bottom: 50%;
+        right: 9%;
+        transform: translate(-28%, -63%);
+    }
+    .Point-Checklist .modal.fade.show {
+        padding-left: 15px !important;
+    }
+    .about-banner::before {
+        border-top: 25px solid #9DD6CB;
+        border-left: 25px solid #9DD6CB;
+    }
+    .about-banner::after {
+        border-bottom: 25px solid #9DD6CB;
+        border-right: 25px solid #9DD6CB;
+    }
+    .box-after-before::before {
+        border-left: 25px solid var(---mainbgColor);
+        border-top: 25px Solid var(---mainbgColor);
+    }
+    .box-after-before::after {
+        border-right: 25px solid var(---mainbgColor);
+        border-bottom: 25px Solid var(---mainbgColor);
+    }
+    .Point-Checklist h1 {
+    font-size: 30px;
+    }
+    .banner-backdrop {
+        padding: 0px 10px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .about-banner .banner-meet {
+        padding: 22px 23px;
+        border-radius: 0px 30px 0px 30px;
+    }
+    .blog-banner .blog-meet {
+        padding: 22px 23px;
+        border-radius: 0px 30px 0px 30px;
+    }
+    .blog-banner::before {
+        border-top: 25px solid #9DD6CB;
+        border-left: 25px solid #9DD6CB;
+    
+    }
+    .blog-banner::after {
+        border-bottom: 25px solid #9DD6CB;
+        border-right: 25px solid #9DD6CB;
+    }
+    .about-story-section  h1 {
+    font-size: 35px;
+}
+.Our-Beliefs .Our-Beliefs-content h1 {
+    font-size: 35px;
+}
+.Our-Culture h1 {
+    font-size: 35px;
+}
+.latest-get-meadia h1 {
+    font-size: 35px;
+    padding-top: 10px;
+}
+.service-details p {
+    padding: 0px 0px;
+}
+.iner-blog-heading h1 {
+    font-size: 30px;
+}
+.main-details-banner .blog-meet {
+    padding: 22px 23px;
+    border-radius: 0px 30px 0px 30px;
+}
+.main-details-banner::before {
+    border-top: 25px solid #9DD6CB;
+    border-left: 25px solid #9DD6CB;
+    transform: translate(-3%, -3% );
+    z-index: 1;
+}
+.main-details-banner::after {
+    border-bottom: 25px solid #9DD6CB;
+    border-right: 25px solid #9DD6CB;
+    transform: translate(-3%, -3% );
+    z-index: 1;
+}
+}
+@media screen and (max-width: 375px) {
+    .iner-blog-heading h1 {
+        font-size: 27px;
+    }
+    .blog-banner .blog-meet h1 {
+        font-size: 33px;
+    }
+}

@@ -23,11 +23,7 @@
 </head>
 
 <body>
-    <!-- =================top-conatiner================ -->
-    <!-- ===========scroll btn======== -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <!-- ===========scroll btn======== -->
-    <section class="topbar">
+    <section class="topbar d-lg-block d-md-block d-none">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="top-nav text-center py-2">
@@ -48,23 +44,20 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                    <ul class="navbar-nav mx-auto my-3 mb-lg-0">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="about.html">About Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="blog.html">Blog</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="service.html">Services</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="event.html">Events</a>
-                        </li>
-                        <li class="nav-item">
+                        <li class="nav-item py-lg-0 py-2">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
@@ -72,12 +65,37 @@
             </div>
         </nav>
     </header>
+    <!-- ===========scroll btn======== -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+    <!-- =======================side bar =========== -->
+    <div class="side-hover-btn">
+        <div class="location-con d-flex align-items-center">
+            <span class="iconify fs-1 text-white" data-icon="cil:location-pin"></span>
+            <div class="request-btn">
+                <div class="ps-3">
+                    <p class="text-white m-0">Request Your Free Estimate Today!</p>
+                    <div class="form-section">
+                        <form action="" class="py-3">
+                            <div class="d-flex">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Zip/Postal Code" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn">Go !</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- ========================blog section============= -->
     <section class="service-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-7 banner-backdrop">
                     <div class="blog-banner">
                         <div class="blog-meet">
                             <h1>Popular Services</h1>
@@ -102,18 +120,18 @@
     </section>
     <!-- ============================== -->
 
-    <section class="services-main my-lg-5 my-2 py-lg-5 py-2">
+    <section class="services-main my-lg-5 my-3 py-lg-5 py-3">
         <div class="container">
             <div class="service-details text-center">
                 <h1>Service Here</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Sapiente officiis unde soluta voluptas?
                     Consectetur qui libero quia, enim odit esse.</p>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-12 my-3">
                     <div class="service-card">
-                        <div class="service-content py-3 px-lg-4">
+                        <div class="service-content py-3 px-lg-4 px-3">
                             <div class="service-img">
                                 <img src="assets/images/services/service-1.png" alt="" style="width: 80px;">
                             </div>
@@ -123,7 +141,7 @@
                                     mollitia quas dolor! Officiis repellendus perferendis saepe consectetur, commodi quo
                                     ex pariatur iusto itaque minima! Dolorem necessitatibus ex enim.</p>
                                 <div class="service-btn py-2">
-                                    <a href="#!" class="btn">View Now <i
+                                    <a href="service-details.html" class="btn">View Now <i
                                             class="fa-regular fa-share-from-square ps-2"></i></a>
                                 </div>
                             </div>
@@ -132,7 +150,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 my-3">
                     <div class="service-card">
-                        <div class="service-content py-3 px-lg-4">
+                        <div class="service-content py-3 px-lg-4 px-3">
                             <div class="service-img">
                                 <img src="assets/images/services/service-2.png" alt="" style="width: 80px;">
                             </div>
@@ -142,7 +160,7 @@
                                     mollitia quas dolor! Officiis repellendus perferendis saepe consectetur, commodi quo
                                     ex pariatur iusto itaque minima! Dolorem necessitatibus ex enim.</p>
                                 <div class="service-btn py-2">
-                                    <a href="#!" class="btn">View Now <i
+                                    <a href="service-details.html" class="btn">View Now <i
                                             class="fa-regular fa-share-from-square ps-2"></i></a>
                                 </div>
                             </div>
@@ -151,7 +169,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 my-3">
                     <div class="service-card">
-                        <div class="service-content py-3 px-lg-4">
+                        <div class="service-content py-3 px-lg-4 px-3">
                             <div class="service-img">
                                 <img src="assets/images/services/service-3.png" alt="" style="width: 80px;">
                             </div>
@@ -161,7 +179,7 @@
                                     mollitia quas dolor! Officiis repellendus perferendis saepe consectetur, commodi quo
                                     ex pariatur iusto itaque minima! Dolorem necessitatibus ex enim.</p>
                                 <div class="service-btn py-2">
-                                    <a href="#!" class="btn">View Now <i
+                                    <a href="service-details.html" class="btn">View Now <i
                                             class="fa-regular fa-share-from-square ps-2"></i></a>
                                 </div>
                             </div>
@@ -170,7 +188,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 my-3">
                     <div class="service-card">
-                        <div class="service-content py-3 px-lg-4">
+                        <div class="service-content py-3 px-lg-4 px-3">
                             <div class="service-img">
                                 <img src="assets/images/services/service-4.png" alt="" style="width: 80px;">
                             </div>
@@ -180,7 +198,7 @@
                                     mollitia quas dolor! Officiis repellendus perferendis saepe consectetur, commodi quo
                                     ex pariatur iusto itaque minima! Dolorem necessitatibus ex enim.</p>
                                 <div class="service-btn py-2">
-                                    <a href="#!" class="btn">View Now <i
+                                    <a href="service-details.html" class="btn">View Now <i
                                             class="fa-regular fa-share-from-square ps-2"></i></a>
                                 </div>
                             </div>
@@ -189,7 +207,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 my-3">
                     <div class="service-card">
-                        <div class="service-content py-3 px-lg-4">
+                        <div class="service-content py-3 px-lg-4 px-3">
                             <div class="service-img">
                                 <img src="assets/images/services/service-5.png" alt="" style="width: 80px;">
                             </div>
@@ -199,7 +217,7 @@
                                     mollitia quas dolor! Officiis repellendus perferendis saepe consectetur, commodi quo
                                     ex pariatur iusto itaque minima! Dolorem necessitatibus ex enim.</p>
                                 <div class="service-btn py-2">
-                                    <a href="#!" class="btn">View Now <i
+                                    <a href="service-details.html" class="btn">View Now <i
                                             class="fa-regular fa-share-from-square ps-2"></i></a>
                                 </div>
                             </div>
@@ -208,7 +226,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 my-3">
                     <div class="service-card">
-                        <div class="service-content py-3 px-lg-4">
+                        <div class="service-content py-3 px-lg-4 px-3">
                             <div class="service-img">
                                 <img src="assets/images/services/service-1.png" alt="" style="width: 80px;">
                             </div>
@@ -218,7 +236,7 @@
                                     mollitia quas dolor! Officiis repellendus perferendis saepe consectetur, commodi quo
                                     ex pariatur iusto itaque minima! Dolorem necessitatibus ex enim.</p>
                                 <div class="service-btn py-2">
-                                    <a href="#!" class="btn">View Now <i
+                                    <a href="service-details.html" class="btn">View Now <i
                                             class="fa-regular fa-share-from-square ps-2"></i></a>
                                 </div>
                             </div>
@@ -234,8 +252,8 @@
         <div class="container">
             <div class="bg-deeper">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-5 col-md-6 col-12 p-0 m-lg-0">
-                        <div class="clean-box py-4 px-5">
+                    <div class="col-lg-5 col-md-6 col-12">
+                        <div class="clean-box py-4 px-lg-5 px-3">
                             <h1>Book your deeper
                                 clean today</h1>
                             <p>Find Your MaidPro!</p>
@@ -251,7 +269,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-lg-7 col-12 p-0 m-lg-0">
+                    <div class="col-lg-7 col-md-6 col-12">
                         <div class="image-box">
                             <img src="assets/images/bg-1.jpg" alt="" class="w-100">
                         </div>
@@ -263,12 +281,12 @@
 
 
 
-
-    <!-- ===============footer section ======================= -->
+    <!-- ======footer========= -->
+    <!-- =================================footer section======================= -->
     <footer class="footer-section py-3">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-lg-4 col-md-4 col-12 my-3">
+                <div class="col-lg-4 col-md-7 col-12 my-3">
                     <div class="footer-content ">
                         <p>Accessibility |
                             Terms of Use</p>
@@ -279,9 +297,9 @@
                             Notice at Collection</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12 my-3">
+                <div class="col-lg-4 col-md-5 col-12 my-3">
                     <div class="social-links text-center">
-                        <ul class="d-flex list-unstyled gap-4">
+                        <ul class="d-flex gap-4 list-unstyled">
                             <a href="#!">
                                 <li><span class="iconify" data-icon="ri:facebook-fill"></span></li>
                             </a>
@@ -300,8 +318,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="copyright text-end">
+                <div class="col-lg-4 col-md-12">
+                    <div class="copyright text-lg-end text-center">
                         <p>Copyright © 2024 MaidPro all rights reserved.
                             Powered by Octane</p>
                     </div>
